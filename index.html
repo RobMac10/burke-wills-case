@@ -7,6 +7,8 @@
 <meta name="description" content="Burke and Wills at Cooper Creek, 1861. Why was no one waiting at the Dig Tree?">
 <meta name="robots" content="noindex,nofollow">
 <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/image-fit.css">
+  <link rel="stylesheet" href="assets/place-time.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to the case</a>
@@ -110,7 +112,21 @@
       <p>Some 1861 records use the language of the time, including words this file does not use as its own. Short attributed extracts are in Super Sleuths, with a content note. They are not the language of this case file.</p>
     </div>
 
-    <article class="witness" id="witness-wills">
+    
+
+    <section class="place-time" data-place-time="burke-wills" aria-label="Place and time">
+      <h3>Place and time</h3>
+      <p class="pt-lead"></p>
+      <div class="pt-mapcard"></div>
+      <p class="pt-maplbl" aria-live="polite"></p>
+      <div class="pt-ctl">
+        <button type="button" class="pt-play">▶ Play</button>
+        <input type="range" min="0" max="1" value="0">
+      </div>
+      <ol class="pt-tl" aria-label="Timeline of places and dates in this file"></ol>
+    </section>
+
+<article class="witness" id="witness-wills">
       <div class="witness-grid">
         <figure>
           <button type="button" class="portrait-zoom">
@@ -343,5 +359,7 @@
 </div>
 
 <script src="assets/app.js"></script>
+<script src="assets/place-time.js"></script>
+
 </body>
 </html>
